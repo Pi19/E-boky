@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/Accueil"
+        android:icon="@mipmap/accueil"
+        android:title="Accueil" />
+    <item
+        android:id="@+id/Prêt"
+        android:icon="@mipmap/pret"
+        android:title="Liste Prêt" />
+    <item
+        android:id="@+id/AjoutPrêt"
+        android:icon="@mipmap/pret"
+        android:title="Ajout Prêt" />
+    <item
+        android:id="@+id/mb_create"
+        android:icon="@mipmap/create"
+        android:title="Creer Membre" />/>
+    <item
+        android:id="@+id/mb_liste"
+        android:icon="@mipmap/lecteur"
+        android:title="Liste Membre" />
+    <item
+        android:id="@+id/lv_create"
+        android:icon="@mipmap/livre"
+        android:title="Creer Livre"  />
+    <item
+        android:id="@+id/lv_liste"
+        android:icon="@mipmap/listelivre"
+        android:title="Liste Livre" />
+</group>
+</menu>
+

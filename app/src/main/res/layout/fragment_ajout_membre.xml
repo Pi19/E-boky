@@ -1,0 +1,128 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AjoutMembre">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/num_lecteur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="numero"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/nom_lecteur"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="nom"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/prenom_lecteur"
+                    android:layout_width="match_parent"
+                    android:layout_height="84dp"
+                    android:textSize="14sp"
+                    android:hint="prenom"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/adresse_lecteur"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textSize="14sp"
+                    android:hint="adresse"
+                    android:maxLines="1"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+            <TextView
+                android:id="@+id/indication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp">
+
+                <Button
+                    android:id="@+id/buttonAjouterMemb"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="10dp"
+                    android:text="Ajouter"
+                    android:background="@color/rouge"
+                    android:textAllCaps="false" />
+
+                <Button
+                    android:id="@+id/buttonAnnuler"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:background="@color/rouge"
+                    android:text="Annuler"
+                    android:layout_marginEnd="10dp"
+                    android:textAllCaps="false" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

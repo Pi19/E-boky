@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LIB</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="entete">LIB \n</string>
+    <string name="apropos">
+
+        LIB est une application pour la gestion bibliothecaire \n \n
+        Version \n
+        1.0(Mai 2017)\n\n
+        Devéloppé par \n
+        ENI dev \n \n
+        Contact \n
+        +261 34 97 345 56 \n \n
+        Remerciements \n
+        Eni dev Community ,RATIARSON Venot
+
+         </string>
+    <string name="copyright"> 2017 - 2018 Pierrot HASIMANANJARA </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_apropos">apropos</string>
+    <string name="title_activity_pret">PretActivity</string>
+</resources>

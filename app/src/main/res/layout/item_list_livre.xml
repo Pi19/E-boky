@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:color/white">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/item_numeroL"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:textAlignment="viewStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="numeroL"
+            android:textSize="17sp" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/item_Designation"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:text="nom"
+            android:textSize="17sp" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/item_Disponibilite"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewStart"
+            android:text="dispo"
+            android:textSize="17sp" />
+        <ImageButton
+            android:id="@+id/butlivre"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:background="@android:color/white"
+            android:backgroundTint="@android:color/white"
+            android:src="@drawable/ic_action_name"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_height="0dp"
+        android:background="#dad8d8"/>
+
+
+</LinearLayout>
